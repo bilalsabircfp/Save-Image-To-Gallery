@@ -185,9 +185,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-
-
     //all permissions
     public static boolean hasPermissions(Context context, String... permissions) {
         if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && context != null && permissions != null) {
